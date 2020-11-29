@@ -75,7 +75,6 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
           </div>
           <div className="flex flex-row items-center">
             {typeof window !== 'undefined' && <ThemeSwitcher />}
-            <MonitorFilter active={slash} callback={filterByTerm} />
           </div>
         </div>
         <MonitorStatusHeader kvMonitorsLastUpdate={kvMonitorsLastUpdate} />
