@@ -22,18 +22,24 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
-
-  - id: www-muzza-sk
-    name: www.muzza.sk
-    description: 'Slovakia'
-    url: 'https://www.muzza.sk'
+    
+  - id: cz-muzza-dev
+    name: cz.muzza.dev
+    url: 'https://cz.muzza.dev'
     method: GET
-    expectStatus: 200 # operational status, default=200
+    expectStatus: 401
+    followRedirect: true # should fetch follow redirects, default=false
+
+  - id: sk-muzza-dev
+    name: sk.muzza.dev
+    url: 'https://sk.muzza.dev'
+    method: GET
+    expectStatus: 401
     followRedirect: true # should fetch follow redirects, default=false
 
   - id: migration-muzza-design
     name: Migration
     url: 'https://migration.muzza.design'
     method: GET
-    expectStatus: 200
+    expectStatus: 401
     followRedirect: true # should fetch follow redirects, default=false
