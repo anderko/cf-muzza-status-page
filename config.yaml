@@ -26,7 +26,7 @@ monitors:
   - id: sajzer-muzza-cz # unique identifier
     name: sajzer.muzza.cz
     description: 'CZE Sajzer' # default=empty
-    url: 'https://sajzer.muzza.cz/' # URL to fetch
+    url: 'https://sajzer.muzza.cz/items' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
@@ -42,7 +42,7 @@ monitors:
   - id: sajzer-muzza-sk # unique identifier
     name: sajzer.muzza.sk
     description: 'SVK Sajzer' # default=empty
-    url: 'https://sajzer.muzza.sk/' # URL to fetch
+    url: 'https://sajzer.muzza.sk/items' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
