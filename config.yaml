@@ -5,13 +5,13 @@ settings:
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: false # experimental feature, enable only for <5 monitors or on paid plans
 
-  allmonitorsOperational: 'Šicko Oka'
-  notAllmonitorsOperational: 'Daco Nedobre'
-  monitorLabelOperational: 'Funguje'
-  monitorLabelNotOperational: 'Nefunguje'
+  allmonitorsOperational: 'Šicko v poradku'
+  notAllmonitorsOperational: 'Ci pana, ta ne šicko dobre, poprataj chyžu!'
+  monitorLabelOperational: 'Robi co ma'
+  monitorLabelNotOperational: 'Ta co še zaš ci neľubi?'
   monitorLabelNoData: 'Neznam ci kazac.'
   dayInHistogramNoData: 'Neznam ci kazac.'
-  dayInHistogramOperational: 'All good'
+  dayInHistogramOperational: 'Šicko v poradku'
   dayInHistogramNotOperational: ' problem(y)' # xx incident(s) recorded
 
 monitors:
