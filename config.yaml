@@ -5,14 +5,14 @@ settings:
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: false # experimental feature, enable only for <5 monitors or on paid plans
 
-  allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
-  monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
-  monitorLabelNoData: 'No data'
-  dayInHistogramNoData: 'No data'
+  allmonitorsOperational: 'Šicko Oka'
+  notAllmonitorsOperational: 'Daco Nedobre'
+  monitorLabelOperational: 'Funguje'
+  monitorLabelNotOperational: 'Nefunguje'
+  monitorLabelNoData: 'Neznam ci kazac.'
+  dayInHistogramNoData: 'Neznam ci kazac.'
   dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
+  dayInHistogramNotOperational: ' problem(y)' # xx incident(s) recorded
 
 monitors:
   - id: www-muzza-cz # unique identifier
