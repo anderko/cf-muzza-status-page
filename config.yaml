@@ -36,7 +36,7 @@ monitors:
     description: 'Slovakia' # default=empty
     url: 'https://www.muzza.sk/' # URL to fetch
     method: GET # default=GET
-    expectStatus: 401 # operational status, default=200
+    expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     
   - id: sajzer-muzza-sk # unique identifier
