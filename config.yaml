@@ -23,6 +23,30 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     
+  - id: sajzer-muzza-cz # unique identifier
+    name: sajzer.muzza.cz
+    description: 'CZE Sajzer' # default=empty
+    url: 'https://sajzer.muzza.cz/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+
+  - id: www-muzza-sk # unique identifier
+    name: www.muzza.sk
+    description: 'Slovakia' # default=empty
+    url: 'https://www.muzza.sk/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 401 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    
+  - id: sajzer-muzza-sk # unique identifier
+    name: sajzer.muzza.sk
+    description: 'SVK Sajzer' # default=empty
+    url: 'https://sajzer.muzza.sk/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    
   - id: migration-muzza-design
     name: Migration
     url: 'https://migration.muzza.design'
